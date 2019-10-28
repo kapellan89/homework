@@ -1,13 +1,13 @@
 body {
-    background-image: url(../chuck.jpeg);
+    background-image: url(pict8.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:contain;
+    background-size:cover;
     background-position: center;
 }
 
 .link {
-    color:red;
+    color:yellow;
 }
 .link2 {
     border: 2px solid black;
@@ -20,4 +20,13 @@ div {
     margin-bottom: 50px;
     padding-bottom: 20px;
     border-bottom: 2px solid yellow;
+    color: yellow;
+}
+h1 {
+    text-align:center;
+    color:Yellow;
+}
+p {
+    color:white;
+    font-size: 20px;
 }
