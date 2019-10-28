@@ -1,0 +1,76 @@
+<!DCTYPE html>
+<html>
+    <head>
+        <title>Анкета и опрос</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1 align="center">Сбор данных и опрос</h1>
+        <form>
+            <fieldset align="center">
+                <legend>Укажите дату и время</legend>
+                    <input type="datetime-local">Выбор даты и времени
+            </fieldset>
+            <fieldset>
+                <legend align="center">Заполните анкету</legend>
+                <label>Ваше имя:
+                    <input type="text" required></label>
+                <label>Ваша фамилия:
+                    <input type="text" minlenght="3"></label>
+                <label>Ваш возраст:
+                    <input type="number" required min="0"></label>
+                <p>
+                    <label>Укажите ваш email:
+                        <input type="email" required></label>
+                    <label>Образование:
+                        <input type="text"></label>
+                    <label>Ваш город:
+                        <select>
+                            <option>Москва</option>
+                            <option>Санкт-Петербург</option>
+                            <option>Новосибирск</option>
+                            <option>Казань</option>
+                            <option>Екатеринбург</option>
+                            <option>Уфа</option>
+                            <option>Челябинск</option>
+                        </select></label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend align="center">Опрос</legend>
+                <label align="center">Какой стиль музыки выпредпочитаете:</label>
+                    <p>
+                        <input type="checkbox">Классическая музыка
+                        <input type="checkbox">Рок-н-Ролл
+                        <input type="checkbox">Металл
+                        <input type="checkbox">Хип-хоп
+                        <input type="checkbox">Техно
+                    </p>
+                <p>
+                    <label>Ваш любимы жанр книг: </label>
+                </p>
+                        <p>
+                            <input type="checkbox">Классическая литература
+                            <input type="checkbox">Научная фантастика
+                            <input type="checkbox">Фентези
+                            <input type="checkbox">Детектив
+                            <input type="checkbox">Приключения
+                        </p>
+                <p>
+                    <label>Предпочитаемый жанр фильмов:</label>
+                </p>
+                    <p>
+                        <input type="checkbox">Боевик
+                        <input type="checkbox">Драма
+                        <input type="checkbox">Комедия
+                        <input type="checkbox">Фантастика
+                        <input type="checkbox">Приключения
+                    </p>
+            </fieldset>
+            <fieldset  align="center">
+                <button type="submit" style="width:150px;height:25px">Отправить</button>
+                <button type="reset" style="width:150px;height:25px">Сброс</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
