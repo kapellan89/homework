@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Меню сеткой</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-9">
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li class="men"><a href="#">Главная</a></li>
+                            <li class="men"><a href="#">Каталог</a></li>
+                            <li class="men"><a href="#">Поиск</a></li>
+                            <li class="men"><a href="#">Войти</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <form>
+                            <fieldset class="info">
+                                <legend> Укажите конатктную информацию:</legend>
+                                <p><label>Ваше имя:    
+                                    <input type="text" required></label>
+                                </p>
+                                <p><label>Ваша фамилия:
+                                    <input type="text" required></label>
+                                </p>
+                                <p><label>Ваш email:
+                                    <input type="email"></label>
+                                </p>
+                                <p><label>Ваш номер телефона:
+                                    <input type="number" required></label>
+                                </p>
+                                <button type="submit">Отправить</button>
+                                <button type="reset">Сброс</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="col-12">Это какой то текст для заполнения</div>
+                    <div class="col-12">Это какой то текст для заполнения</div>
+                </div>
+            </div>
+            <div class="col-3">Слайды
+                <ul class="slider">
+                    <li><img src="pict8.jpeg"></li>
+                    <li><img src="pict8.jpeg"></li>
+                    <li><img src="pict8.jpeg"></li>
+                    <li class="active"><img src="pict8.jpeg"></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
